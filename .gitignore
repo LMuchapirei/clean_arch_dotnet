@@ -1,0 +1,78 @@
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Rider / JetBrains IDE
+.idea/
+
+# ASP.NET Core publish output
+publish/
+app.publish/
+
+# Logs
+*.log
+Logs/
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+
+# NuGet packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Coverage tools
+coverage/
+*.lcov
+
+# Config transformations
+*.config.transform*
+
+# Secrets and sensitive config
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Entity Framework Migrations snapshots
+Migrations/*Snapshot.cs
+
+# Dotnet CLI config
+global.json
+project.lock.json
+project.fragment.lock.json
+
+# Templated content
+*.template.config
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
