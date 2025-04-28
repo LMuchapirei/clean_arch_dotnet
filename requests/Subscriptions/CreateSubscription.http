@@ -9,7 +9,4 @@ Content-Type: application/json
     "AdminId": "{{adminId}}"
 }
 
-# {
-#     "Id": "{{adminId}}"
-#     "SubscriptionType":"Free", // "Starter" , "Pro"
-# } 
+
