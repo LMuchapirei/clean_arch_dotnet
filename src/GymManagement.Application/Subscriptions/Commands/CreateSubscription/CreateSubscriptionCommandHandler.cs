@@ -19,10 +19,10 @@ public class CreateSubscriptionCommandHandler : IRequestHandler<CreateSubscripti
     {
         // Create a subscription
         var subscription = new Subscription
-        {
-            Id = Guid.NewGuid(),
-            SubscriptionType = request.SubscriptionType
-        };
+        (
+            subscriptionType : request.SubscriptionType,
+            adminId: request.AdminId
+        );
         // Persist it to the database
         await _subscriptionsRepository.AddSubscriptionAsync(subscription);
         await _unitOfWork.CommitChangesAsync();
